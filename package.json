@@ -95,7 +95,7 @@
     "uuid": "^3.0.0",
     "ws": "^3.0.0",
     "yargs": "^6.6.0",
-    "zmq": "^2.14.0"
+    "zmq": "^2.15.3"
   },
   "devDependencies": {
     "async": "^2.0.1",
@@ -136,7 +136,7 @@
     "less-loader": "^2.2.2",
     "memory-fs": "^0.3.0",
     "node-libs-browser": "^1.0.0",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.5.3",
     "phantomjs-prebuilt": "^2.1.11",
     "protractor": "^5.4.1",
     "protractor-html-reporter-2": "1.0.4",

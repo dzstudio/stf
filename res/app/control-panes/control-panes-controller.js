@@ -10,12 +10,12 @@ module.exports =
         templateUrl: 'control-panes/screenshots/screenshots.pug',
         filters: ['native', 'web']
       },
-      {
-        title: gettext('Automation'),
-        icon: 'fa-road color-lila',
-        templateUrl: 'control-panes/automation/automation.pug',
-        filters: ['native', 'web']
-      },
+      // {
+      //   title: gettext('Automation'),
+      //   icon: 'fa-road color-lila',
+      //   templateUrl: 'control-panes/automation/automation.pug',
+      //   filters: ['native', 'web']
+      // },
       {
         title: gettext('Advanced'),
         icon: 'fa-bolt color-brown',
@@ -52,7 +52,7 @@ module.exports =
         templateUrl: 'control-panes/logs/logs.pug',
         filters: ['native', 'web']
       }
-    ].concat(angular.copy(sharedTabs))
+    ] //.concat(angular.copy(sharedTabs))
 
     $scope.device = null
     $scope.control = null
